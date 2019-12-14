@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Roboto&display=swap");
+@import url("components/container.css");
+@import url("components/img-cercle.css");
+@import url("components/btn-blue.css");
+@import url("components/btn-red.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+
+
+
+body {
+	  font-family: 'Gentium Book Basic', serif; 
+      background: #f4f3f3;
+      font-size: 20px;
+      color: #63707e;
+      text-align: justify;
+      text-decoration-style: none;
+  }
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+    color: #3c4245;
+    text-align: center;
+}
+
+h2 {color: #3c4245;
+    font-size: 35px;
+    font-style: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.card-white {
+	width: 700px;
+	margin: 40px auto;
+	background-color: white;
+	border-radius : 4px;
+	box-shadow: rgba(0 0 0 0.1);
+	padding: 20px;
+}
+
+#title p {
+	text-align: center;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+
+@media (max-width: 960px) {
+	.container .banner {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container .banner {
+		width: 500px;
+	}
+	.list-inline li {
+		display: block;
+	}
+}
+
+@media (max-width: 400px) {
+	.container .banner {
+		width: 200px;
+	}
+}
